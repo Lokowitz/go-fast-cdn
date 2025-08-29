@@ -1,7 +1,29 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/ui"
+    schedule:
+      interval: "daily"
+    groups:
+      dev-patch-updates:
+        dependency-type: "development"
+        update-types:
+          - "patch"
+      dev-minor-updates:
+        dependency-type: "development"
+        update-types:
+          - "minor"
+      prod-patch-updates:
+        dependency-type: "production"
+        update-types:
+          - "patch"
+      prod-minor-updates:
+        dependency-type: "production"
+        update-types:
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/doc"
     schedule:
       interval: "daily"
     groups:
