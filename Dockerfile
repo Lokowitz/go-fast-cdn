@@ -6,7 +6,7 @@ RUN npm install
 RUN npm run build
 
 # Build the Go binary
-FROM golang:1.22 AS gowork
+FROM golang:1.25 AS gowork
 WORKDIR /app
 COPY go.mod .
 COPY go.sum .
