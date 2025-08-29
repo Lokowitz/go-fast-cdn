@@ -78,8 +78,8 @@ importers:
         specifier: ^7.59.0
         version: 7.59.0(react@18.3.1)
       react-qr-code:
-        specifier: ^2.0.16
-        version: 2.0.16(react@18.3.1)
+        specifier: ^2.0.18
+        version: 2.0.18(react@18.3.1)
       tailwind-merge:
         specifier: ^2.2.0
         version: 2.5.2
@@ -2228,8 +2228,8 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-qr-code@2.0.16:
-    resolution: {integrity: sha512-8f54aTOo7DxYr1LB47pMeclV5SL/zSbJxkXHIS2a+QnAIa4XDVIdmzYRC+CBCJeDLSCeFHn8gHtltwvwZGJD/w==}
+  react-qr-code@2.0.18:
+    resolution: {integrity: sha512-v1Jqz7urLMhkO6jkgJuBYhnqvXagzceg3qJUWayuCK/c6LTIonpWbwxR1f1APGd4xrW/QcQEovNrAojbUz65Tg==}
     peerDependencies:
       react: '*'
 
@@ -4492,7 +4492,7 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-qr-code@2.0.16(react@18.3.1):
+  react-qr-code@2.0.18(react@18.3.1):
     dependencies:
       prop-types: 15.8.1
       qr.js: 0.0.0
