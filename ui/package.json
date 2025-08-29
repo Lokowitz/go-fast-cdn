@@ -61,6 +61,6 @@
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.35.1",
     "vite": "^6.3.5",
-    "wouter": "^2.12.1"
+    "wouter": "^3.7.1"
   }
 }
