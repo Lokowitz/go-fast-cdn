@@ -23,7 +23,7 @@ updates:
           - "minor"
 
   - package-ecosystem: "npm"
-    directory: "/doc"
+    directory: "/docs"
     schedule:
       interval: "daily"
     groups:
