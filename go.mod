@@ -14,7 +14,7 @@ require (
 	github.com/pquerna/otp v1.5.0
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/crypto v0.36.0
-	gorm.io/gorm v1.30.2
+	gorm.io/gorm v1.31.0
 )
 
 require (
