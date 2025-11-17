@@ -1,5 +1,5 @@
 # Build the UI
-FROM node:18.17.0-bullseye-slim AS nodework
+FROM node:25.2.1-bullseye-slim AS nodework
 WORKDIR /app
 COPY ui/ .
 RUN npm install
