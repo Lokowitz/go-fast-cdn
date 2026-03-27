@@ -18,7 +18,7 @@ RUN go build -o /app/main .
 
 
 # Run the binary in a alpine container
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 WORKDIR /app
 COPY --from=gowork /app/main .
 CMD [ "./main" ]
